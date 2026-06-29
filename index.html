@@ -1,460 +1,1006 @@
-<!DOCTYPE html><html class="scroll-smooth" lang="id"><head>
-<meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Pura Panataran Dharmaraksaka | Warisan Budaya &amp; Spiritual Bali</title>
+<!DOCTYPE html>
+
+<html class="dark" lang="en" style=""><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title class="">Ikhwan Hakim | Digital Marketing &amp; Web Dev</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
       tailwind.config = {
         darkMode: "class",
         theme: {
           extend: {
             "colors": {
-                    "on-surface": "#1b1c19",
-                    "tertiary-container": "#61615f",
-                    "inverse-surface": "#30312e",
-                    "on-primary-fixed-variant": "#802909",
-                    "surface-bright": "#fbf9f4",
-                    "inverse-on-surface": "#f2f1ec",
-                    "primary-container": "#a44322",
-                    "error": "#ba1a1a",
-                    "surface-dim": "#dbdad5",
-                    "secondary-fixed-dim": "#e9c349",
-                    "outline-variant": "#ddc0b8",
-                    "on-error": "#ffffff",
-                    "paras-stone": "#8C8C88",
-                    "on-error-container": "#93000a",
-                    "sacred-white": "#FFFFFF",
-                    "on-tertiary": "#ffffff",
-                    "bata-merah": "#BC5434",
-                    "surface-tint": "#a0401f",
-                    "on-primary": "#ffffff",
-                    "on-tertiary-fixed": "#1b1c1a",
-                    "surface-container-lowest": "#ffffff",
-                    "primary-fixed": "#ffdbd0",
-                    "outline": "#8a726b",
-                    "tertiary-fixed-dim": "#c8c6c3",
-                    "surface-container-low": "#f5f3ee",
-                    "on-secondary-fixed-variant": "#574500",
-                    "secondary-container": "#fed65b",
-                    "on-secondary-fixed": "#241a00",
-                    "secondary": "#735c00",
-                    "on-primary-container": "#ffd4c7",
-                    "surface-variant": "#e4e2dd",
-                    "surface": "#fbf9f4",
-                    "primary-fixed-dim": "#ffb59e",
-                    "on-tertiary-container": "#dfddda",
-                    "error-container": "#ffdad6",
-                    "surface-container-highest": "#e4e2dd",
-                    "on-surface-variant": "#56423c",
-                    "tertiary-fixed": "#e4e2df",
-                    "on-background": "#1b1c19",
-                    "on-tertiary-fixed-variant": "#474745",
-                    "background": "#fbf9f4",
-                    "inverse-primary": "#ffb59e",
-                    "primary": "#842c0c",
-                    "surface-container": "#f0eee9",
-                    "surface-container-high": "#eae8e3",
-                    "on-secondary": "#ffffff",
-                    "on-primary-fixed": "#3a0b00",
-                    "tertiary": "#494947",
-                    "secondary-fixed": "#ffe088",
-                    "on-secondary-container": "#745c00",
-                    "candi-charcoal": "#1A1A1A"
+                "surface-variant": "#2d3449",
+                "tertiary-fixed-dim": "#ffb86e",
+                "secondary-fixed": "#6ffbbe",
+                "on-secondary-fixed-variant": "#005236",
+                "error": "#ffb4ab",
+                "secondary-fixed-dim": "#4edea3",
+                "primary-fixed-dim": "#89ceff",
+                "on-error-container": "#ffdad6",
+                "on-surface": "#dbe2fd",
+                "on-primary-fixed-variant": "#004c6e",
+                "on-primary": "#00344d",
+                "surface-container-low": "#131b2e",
+                "surface-container-high": "#222a3e",
+                "on-secondary-container": "#003e28",
+                "inverse-surface": "#dbe2fd",
+                "tertiary": "#ffdcbd",
+                "on-primary-container": "#00587f",
+                "tertiary-fixed": "#ffdcbd",
+                "surface-container": "#171f33",
+                "on-tertiary-fixed-variant": "#693c00",
+                "surface-bright": "#31394e",
+                "surface-dim": "#0b1326",
+                "primary-fixed": "#c9e6ff",
+                "on-tertiary-fixed": "#2c1600",
+                "on-primary-fixed": "#001e2f",
+                "on-secondary": "#003824",
+                "border-subtle": "#334155",
+                "text-muted": "#94A3B8",
+                "on-tertiary-container": "#794702",
+                "secondary": "#4edea3",
+                "on-background": "#dbe2fd",
+                "surface-elevated": "#1E293B",
+                "on-surface-variant": "#c0c7cf",
+                "error-container": "#93000a",
+                "on-error": "#690005",
+                "outline": "#8a9299",
+                "on-secondary-fixed": "#002114",
+                "on-tertiary": "#492900",
+                "background": "#0b1326",
+                "outline-variant": "#40484e",
+                "primary": "#c9e6ff",
+                "surface-container-highest": "#2d3449",
+                "tertiary-container": "#ffb86e",
+                "surface": "#0b1326",
+                "text-primary": "#F8FAFC",
+                "surface-tint": "#89ceff",
+                "inverse-primary": "#056490",
+                "surface-container-lowest": "#060d20",
+                "inverse-on-surface": "#283044",
+                "secondary-container": "#00b47d",
+                "primary-container": "#89ceff"
             },
             "borderRadius": {
-                    "DEFAULT": "0.125rem",
-                    "lg": "0.25rem",
-                    "xl": "0.5rem",
-                    "full": "0.75rem"
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
             },
             "spacing": {
-                    "stack-md": "16px",
-                    "stack-lg": "24px",
-                    "margin-mobile": "16px",
                     "container-max": "1200px",
-                    "stack-sm": "8px",
-                    "section-gap": "80px",
-                    "gutter": "24px",
-                    "margin-desktop": "40px"
+                    "margin-mobile": "1rem",
+                    "element-gap": "1.5rem",
+                    "gutter": "1.5rem",
+                    "section-gap": "8rem"
             },
             "fontFamily": {
-                    "label-md": ["Plus Jakarta Sans"],
-                    "headline-xl-mobile": ["Playfair Display"],
-                    "body-lg": ["Plus Jakarta Sans"],
-                    "body-md": ["Plus Jakarta Sans"],
-                    "headline-md": ["Playfair Display"],
-                    "headline-lg": ["Playfair Display"],
-                    "headline-xl": ["Playfair Display"],
-                    "caption": ["Plus Jakarta Sans"]
+                    "headline-lg": ["Hanken Grotesk"],
+                    "label-mono": ["JetBrains Mono"],
+                    "body-md": ["Hanken Grotesk"],
+                    "headline-md": ["Hanken Grotesk"],
+                    "display-hero": ["Hanken Grotesk"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "display-hero-mobile": ["Hanken Grotesk"]
             },
             "fontSize": {
-                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
-                    "headline-xl-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
-                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
-                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
-                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
-                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
-                    "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
-                    "caption": ["12px", {"lineHeight": "16px", "fontWeight": "400"}]
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "label-mono": ["14px", {"lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                    "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "display-hero": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "display-hero-mobile": ["40px", {"lineHeight": "1.2", "fontWeight": "800"}]
+            },
+            "animation": {
+                "float": "float 3s ease-in-out infinite",
+                "typing": "typing 3.5s steps(40, end), blink-caret .75s step-end infinite",
+                "marquee-left": "marquee-left 25s linear infinite",
+                "marquee-right": "marquee-right 25s linear infinite"
+            },
+            "keyframes": {
+                "float": {
+                    "0%, 100%": { transform: "translateY(0)" },
+                    "50%": { transform: "translateY(-10px)" }
+                },
+                "marquee-left": {
+                    "0%": { transform: "translateX(0)" },
+                    "100%": { transform: "translateX(-50%)" }
+                },
+                "marquee-right": {
+                    "0%": { transform: "translateX(-50%)" },
+                    "100%": { transform: "translateX(0)" }
+                },
+                "blink-caret": {
+                    "from, to": { "border-color": "transparent" },
+                    "50%": { "border-color": "#3b82f6" }
+                }
             }
           },
         },
       }
     </script>
 <style>
+        body {
+            background-color: #ffffff;
+            color: #0f172a;
+            font-family: 'Hanken Grotesk', sans-serif;
+            scroll-behavior: smooth;
+        }
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-            display: inline-block;
-            line-height: 1;
         }
-        .glass-nav {
-            background: rgba(251, 249, 244, 0.9);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
+        .bento-card {
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
         }
-        .bento-inner {
-            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-        .bento-inner:hover {
+        .bento-card:hover {
+            border-color: #89ceff;
             transform: translateY(-4px);
+            box-shadow: 0 12px 24px -10px rgba(137, 206, 255, 0.2);
         }
-        .mandala-divider {
-            height: 1px;
-            background: linear-gradient(90deg, transparent, #842c0c, transparent);
+        .skill-chip {
+            border: 1px solid #e2e8f0;
+            background: #f8fafc;
+            transition: all 0.2s ease;
+        }
+        .skill-chip:hover {
+            background: #e0f2fe;
+            border-color: #0369a1;
+            color: #0369a1;
+        }
+        .section-padding {
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+        }
+        .hero-name-gradient {
+            background: linear-gradient(135deg, #1e40af 0%, #7e22ce 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .profile-card {
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .profile-card:hover {
+            transform: scale(1.02) translateY(-10px) rotate(1deg);
+            box-shadow: 0 25px 50px -12px rgba(59, 130, 246, 0.25);
+        }
+        .typing-text {
+            border-right: 2px solid #3b82f6;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        /* Marquee Styles */
+        .marquee-container {
+            overflow: visible; /* Changed from hidden to allow popups to show fully */
+            user-select: none;
             position: relative;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
-        .mandala-icon {
+        .marquee-track {
+            display: flex;
+            width: fit-content;
+        }
+        .marquee-container:hover .marquee-track {
+            animation-play-state: paused;
+        }
+        .skill-card {
+            flex-shrink: 0;
+            width: 220px;
+            height: 64px;
+            margin-right: 1.5rem;
+            padding: 0 1.5rem;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+            cursor: pointer;
+            position: relative;
+            z-index: 1;
+        }
+        .skill-card:hover {
+            border-color: #89ceff;
+            background: #f8fafc;
+            transform: translateY(-2px);
+            z-index: 20;
+        }
+        
+        .skill-card.popup-active {
+            transform: scale(1.15) translateY(-8px);
+            z-index: 50;
+            border-color: #6366f1;
+            box-shadow: 0 20px 25px -5px rgba(99, 102, 241, 0.2), 0 10px 10px -5px rgba(99, 102, 241, 0.1);
+            background: #f5f3ff;
+        }
+        .skill-card.popup-active span:first-child {
+            transform: scale(1.2);
+            transition: transform 0.3s ease;
+        }
+
+        /* Nav Link Active States */
+        .nav-link-home.active { background-color: #3b82f6; color: white; }
+        .nav-link-about.active { background-color: #ec4899; color: white; }
+        .nav-link-skills.active { background-color: #a855f7; color: white; }
+        .nav-link-experience.active { background-color: #10b981; color: white; }
+        .nav-link-projects.active { background-color: #f97316; color: white; }
+        .nav-link-contact.active { background-color: #3b82f6; color: white; }
+
+        /* Modal Styles */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(11, 19, 38, 0.85);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            backdrop-filter: blur(12px);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .modal-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+        .modal-content {
+            background: white;
+            border-radius: 2rem;
+            padding: 2.5rem;
+            max-width: 600px;
+            width: 90%;
+            transform: translateY(20px);
+            transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+            position: relative;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+        .modal-overlay.active .modal-content {
+            transform: translateY(0);
+        }
+        .modal-close {
             position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            background: #fbf9f4;
-            padding: 0 16px;
+            top: 1.5rem;
+            right: 1.5rem;
+            color: #64748b;
+            cursor: pointer;
+            background: #f1f5f9;
+            padding: 0.5rem;
+            border-radius: 50%;
+            transition: all 0.2s;
         }
-        /* Animated Background for Hero */
-        .hero-shader {
-            background: linear-gradient(45deg, #a44322, #842c0c, #1b1c19);
-            background-size: 400% 400%;
-            animation: gradientBG 15s ease infinite;
+        .modal-close:hover {
+            background: #e2e8f0;
+            color: #0f172a;
         }
-        @keyframes gradientBG {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+
+        [data-i18n] {
+            transition: opacity 0.2s ease;
         }
-        .hero-glow {
-            background: radial-gradient(circle at center, rgba(255, 219, 208, 0.2) 0%, transparent 70%);
+
+        /* Magnetic button utilities */
+        .magnetic-btn {
+            transition: transform 0.2s cubic-bezier(0.33, 1, 0.68, 1);
+            display: inline-flex;
         }
-        /* Bali Pattern Texture */
-        .bali-pattern {
-            background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
-            mix-blend-mode: overlay;
-        }
-        /* Reveal Animation Classes */
+
+        /* Reveal Animation */
         .reveal {
             opacity: 0;
-            transform: translateY(40px);
-            transition: opacity 1s cubic-bezier(0.2, 1, 0.3, 1), transform 1s cubic-bezier(0.2, 1, 0.3, 1);
-            will-change: transform, opacity;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
         }
         .reveal.active {
             opacity: 1;
             transform: translateY(0);
         }
-        /* Text Clamp/Expand */
-        .expand-content p:not(:first-child) {
-            display: none;
-            opacity: 0;
-            transition: opacity 0.5s ease;
+
+        /* Form micro-interactions */
+        .form-group-focus label {
+            color: #6366f1;
+            transform: translateY(-2px);
         }
-        .expand-content.expanded p {
-            display: block;
-            opacity: 1;
+        .form-success-animation {
+            animation: success-bounce 0.5s ease-in-out;
         }
-        /* Nav Active State */
-        .nav-link.active {
-            color: #842c0c;
-            border-bottom: 2px solid #842c0c;
+        @keyframes success-bounce {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
         }
     </style>
-<link rel="icon" type="image/x-icon" href="https://lh3.googleusercontent.com/aida/AP1WRLsGT3H9FrE4GbighsWLmFzE5tbzvOJW-xcTyS7wVXbmYdEPXp9JIeSNPsZX3-oAoRqiWROhiOXuVbiflt6akgOiJUnQJX2bc5n3dXlPwCtScOecpcN23niHb5xuPcbeBkXuDVxvXmIdd1LYvaZEm11FjFOoTn2DfJ287GHnbF3yZUaj1kUAoMTN5yJokueRr9hFF8jgsKpAHKOK7aaDBz_1hpBM8LSUGLqSDpppguOVIV8ykWVyhH20sVk"></head>
-<body class="bg-surface font-body-md text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
-<!-- Top Navigation -->
-<nav class="fixed top-0 w-full z-[100] glass-nav shadow-md shadow-bata-merah/5 border-b border-surface-container">
-<div class="flex justify-between items-center px-margin-desktop h-20 max-w-container-max mx-auto w-full">
-<div class="font-headline-md text-headline-md font-bold text-primary flex items-center gap-2">
-            Informasi
-        </div>
-<div class="hidden md:flex items-center gap-10">
-<a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary pb-1 transition-all duration-300" href="#sejarah">Sejarah</a>
-<a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary pb-1 transition-all duration-300" href="#aturan">Aturan</a>
-<a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary pb-1 transition-all duration-300 active" href="#lokasi">Lokasi</a>
-</div>
-</div>
-</nav>
-<!-- Hero Section -->
-<header class="hero-shader relative h-screen min-h-[700px] w-full overflow-hidden flex items-center justify-center text-center px-margin-mobile">
-<div class="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-surface/95"></div>
-<div class="bali-pattern absolute inset-0 opacity-20 pointer-events-none"></div>
-<div class="hero-glow absolute inset-0 pointer-events-none"></div>
-<!-- Intricate Mandala/Pattern Behind Title -->
-<div class="absolute inset-0 flex items-center justify-center opacity-[0.08] pointer-events-none overflow-hidden">
-<div class="relative w-full h-full flex items-center justify-center animate-[spin_120s_linear_infinite]">
-<span class="material-symbols-outlined text-[1200px] text-sacred-white absolute">nest_eco_leaf</span>
-<span class="material-symbols-outlined text-[1000px] text-sacred-white absolute rotate-45">filter_vintage</span>
-<span class="material-symbols-outlined text-[800px] text-sacred-white absolute rotate-[30deg]">architecture</span>
-</div>
-</div>
-<div class="relative z-10 max-w-5xl px-4 reveal active">
-<div class="inline-block relative mb-6">
-<span class="material-symbols-outlined text-secondary-fixed text-6xl absolute -top-12 left-1/2 -translate-x-1/2 opacity-60">temple_hindu</span>
-<h1 class="font-headline-xl text-headline-xl text-sacred-white drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)] md:text-[84px] leading-tight mb-2">
-                Pura Panataran Dharmaraksaka
-            </h1>
-<div class="w-48 h-1 bg-gradient-to-r from-transparent via-secondary-fixed to-transparent mx-auto"></div>
-</div>
-<p class="font-body-lg text-body-lg text-sacred-white/95 mb-stack-lg tracking-[0.3em] uppercase font-semibold drop-shadow-md">
-            Warisan Budaya &amp; Spiritual Sejak 1989
-        </p>
-</div>
-<div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce cursor-pointer" onclick="document.getElementById('sejarah').scrollIntoView({behavior:'smooth'})">
-<span class="material-symbols-outlined text-sacred-white text-4xl">expand_more</span>
-</div>
-</header>
-<main class="max-w-container-max mx-auto px-margin-desktop space-y-section-gap py-section-gap">
-<!-- Sejarah Section -->
-<section class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-start reveal pt-20 active" id="sejarah">
-<div class="space-y-stack-lg">
-<div class="flex items-center gap-4 text-bata-merah">
-<span class="w-12 h-[1px] bg-bata-merah"></span>
-<span class="font-label-md text-label-md uppercase tracking-widest">Akar Budaya</span>
-</div>
-<h2 class="font-headline-lg text-headline-lg text-on-surface">Jejak Spiritual di Tanah Perantauan</h2>
-<div class="font-body-md text-body-md text-on-surface-variant space-y-4 leading-relaxed text-justify expand-content" id="sejarah-content">
-<p class="">Pura Panataran Dharmaraksaka merupakan simbol ketahanan budaya dan spiritual masyarakat Bali di tanah perantauan Sumatera Utara. Terletak di Dusun II B Desa Pegajahan, pura ini menjadi saksi bisu perjalanan panjang sejarah krama Bali yang bermula dari kebutuhan akan tenaga kerja perkebunan.</p>
-<p class="">Sejarah keberadaan masyarakat Bali di wilayah ini bermula jauh sebelum pura didirikan. Pada tahun 1962, kelompok pertama warga Bali didatangkan sebagai buruh kontrak untuk perkebunan karet milik negara. Namun, arus utama kedatangan terjadi pada tahun 1983 melalui program transmigrasi nasional yang dipicu oleh bencana letusan Gunung Agung yang dahsyat di Bali. Gelombang ini membawa sekitar 60 kepala keluarga yang kemudian ditempatkan di Kebun Melati, sebuah area yang mereka kenang dan namakan sebagai Pondok Bali.</p>
-<p class="">Di bawah naungan rimbunnya pohon sawit dan karet, masyarakat Bali tetap memegang teguh ajaran leluhur. Pada tahun 1989, dengan semangat gotong royong (ngayah), dimulailah pembangunan Pura Panataran Dharmaraksaka. Nama 'Dharmaraksaka' sendiri mengandung makna mendalam sebagai pelindung atau penjaga kebenaran (Dharma). Pura ini tidak hanya berfungsi sebagai tempat pemujaan Sang Hyang Widhi Wasa, tetapi juga sebagai pusat interaksi sosial dan pelestarian seni budaya Bali, memastikan bahwa identitas dan tradisi tetap hidup meski berjarak ribuan kilometer dari pulau asal.</p>
-</div>
-<button class="flex items-center gap-2 text-primary font-label-md hover:underline transition-all group" id="toggle-sejarah">
-<span class="font-bold">Baca Selengkapnya</span>
-<span class="material-symbols-outlined text-sm group-hover:translate-y-1 transition-transform">expand_more</span>
+<link class="" href="https://lh3.googleusercontent.com/aida/AP1WRLuvglRymo8utbsNGQDSH5azsc6L_A33ufrICwGL0bYPrE4Myaog5cYdDvx1uP52WJ0U4dN9xulT2IEHuKFv_9zbG5xb4UcmN9-5mjqHGc0NpNclR66JJRIrYkHu5rV4C_4mn6BJH7HEgJDjm2HBsJbpAsfkkegg2Xb8rxjzF6u-wMQZtZ-Tn5Id3EaR1iPjg1Ct1UaqKklmeswK1WZXIxS2T2q0wvpBOPwB9LeWTZf3T3dJSjxQtcBB0bA" rel="icon" type="image/png"/></head>
+<body class="bg-white text-on-surface">
+<header class="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-max max-w-[95vw] hidden md:block">
+<nav class="bg-white/80 backdrop-blur-md border border-slate-200/50 shadow-lg rounded-full px-4 py-2 flex items-center justify-center gap-1">
+<a class="nav-link-home flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold text-slate-600 hover:text-white hover:bg-[#3b82f6] transition-all active" href="#home" id="nav-home">
+<span class="material-symbols-outlined text-[20px]">home</span>
+<span class="hidden sm:inline" data-i18n="nav-home">Home</span>
+</a>
+<a class="nav-link-about flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold text-slate-600 hover:text-white hover:bg-[#ec4899] transition-all" href="#about" id="nav-about">
+<span class="material-symbols-outlined text-[20px]">person</span>
+<span class="hidden sm:inline" data-i18n="nav-about">About</span>
+</a>
+<a class="nav-link-skills flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold text-slate-600 hover:text-white hover:bg-[#a855f7] transition-all" href="#skills" id="nav-skills">
+<span class="material-symbols-outlined text-[20px]">psychology</span>
+<span class="hidden sm:inline" data-i18n="nav-skills">Skills</span>
+</a>
+<a class="nav-link-experience flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold text-slate-600 hover:text-white hover:bg-[#10b981] transition-all" href="#experience" id="nav-experience">
+<span class="material-symbols-outlined text-[20px]">work</span>
+<span class="hidden sm:inline" data-i18n="nav-experience">Experience</span>
+</a>
+<a class="nav-link-projects flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold text-slate-600 hover:text-white hover:bg-[#f97316] transition-all" href="#projects" id="nav-projects">
+<span class="material-symbols-outlined text-[20px]">folder</span>
+<span class="hidden sm:inline" data-i18n="nav-projects">Projects</span>
+</a>
+<a class="nav-link-contact flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold text-slate-600 hover:text-white hover:bg-[#3b82f6] transition-all" href="#contact" id="nav-contact">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+<span class="hidden sm:inline" data-i18n="nav-contact">Contact</span>
+</a>
+<div class="h-6 w-[1px] bg-slate-200 mx-2"></div>
+<button class="flex items-center gap-2 px-4 py-2 rounded-full text-xs font-bold text-slate-600 hover:bg-slate-100 transition-all" id="lang-toggle">
+<span class="material-symbols-outlined text-[18px]">language</span>
+<span class="" id="lang-text">EN / ID</span>
 </button>
-</div>
-<div class="grid grid-cols-2 gap-4 h-[500px] sticky top-28">
-<div class="rounded-xl overflow-hidden shadow-lg shadow-paras-stone/10 bento-inner reveal active">
-<img alt="A detailed wide shot of the Pura Panataran Dharmaraksaka temple entrance" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLtCSV3HAM5IRFWkYgfFPxy1ZxFVztqBAm1QGvdRFwpJxW8ug0EwtVi7cz2ycej_RUn04KoqOVo2LF_NnR1GIlgqTtGwdeUabcwwaono-aiIU8Ar8qPAkcE3zuKBvIukd8eSDB-rfYFwGKR_wdY4_Yathv8S7RKCrwpiiKtkTUL_ZBzt-cDtTb9z1k0sq8-_p1ct72FNEdmEfG_gpoWB4ZH4gZVNNgHdGu5HaqWCjHv_IMyEIAtYplzgjeg">
-</div>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="min-h-[100vh] flex items-center pt-24 pb-16 overflow-hidden" id="home">
+<div class="max-w-container-max mx-auto px-margin-mobile grid lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-8 reveal active">
 <div class="space-y-4">
-<div class="h-1/2 rounded-xl overflow-hidden shadow-lg shadow-paras-stone/10 bento-inner reveal active">
-<img alt="Close-up of intricate stone carvings" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLsTMcR4977hXWp_H8oO6UUSaNAM9EdPZwNNOO_VqAxSXtb5w7uj1c0AQrBogA-T8nGAHexGUhN21St5PJO38lnxw_hf5LkBzB4KIZtOoBeR_ex1-poUUROCHGzk1MaXmkYSFLherUpkTQUttzZ1Ias-FNsM7n8xNMnpcVJGBhFNYS0wneKf9k6WJqEHYO4Cbi1PItmt-FAF3GHhnRBXAnoceRZ2ZlyLJmcpxb7HAjm26NAjROtdBzrrU2k">
-</div>
-<div class="h-1/2 rounded-xl overflow-hidden shadow-lg shadow-paras-stone/10 bento-inner reveal active">
-<img alt="A spiritual offering" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLthLLdsQajLQJYXn3EaDvqukLZaNAhH-1ayomzEx_N70qGiseh6vuxCBNxOvd4F2XO2a6JCU-flEdts4JINhkkdieer3w4ls_PyPavfaEFax3qu7e8FA-w0S_xETHIJIgHrTmcFuLH5s7uv7JRo_DebfDRPukr2PfeUothg9wgxKCuRznEFLO5eMmYtPa5dXwwt3zcTN_q35vipDbrfJYVpwkYX4rkc-VCJ_cK1maBV-jGWu9cSSfkHcw">
-</div>
-</div>
-</div>
-</section>
-<!-- Divider -->
-<div class="mandala-divider reveal active">
-<div class="mandala-icon">
-<span class="material-symbols-outlined text-bata-merah text-2xl" style="font-variation-settings: 'FILL' 1;">shutter_speed</span>
+<p class="font-label-mono text-label-mono text-indigo-600 tracking-[0.2em] uppercase" data-i18n="hero-greeting">HELLO, I AM</p>
+<h1 class="font-display-hero text-display-hero-mobile md:text-display-hero text-[#0f172a] leading-tight">
+<span class="block">Ikhwan</span>
+<span class="hero-name-gradient block">Hakim.</span>
+</h1>
+<div class="inline-block">
+<p class="font-headline-md text-headline-md text-[#1e293b] typing-text" data-i18n="hero-tagline">Digital Marketer &amp; Web Developer</p>
 </div>
 </div>
-<!-- Pondok Bali & Pondok Agung -->
-<section class="bg-surface-container-low rounded-3xl p-stack-lg md:p-16 flex flex-col md:flex-row gap-12 items-center border border-paras-stone/10 reveal active">
-<div class="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-2xl">
-<img alt="Historical style photograph of Balinese migration" class="w-full h-auto" src="https://lh3.googleusercontent.com/aida/AP1WRLvOa7AVLo5aaJ7wRJmgPgEKPPKsaT8kPCUTMVv8YBk3hnYwCVFj_ScFDZOAu3V0UIU4JZEhthAVMFN-TwUEZyWT-Tc69IcFCgs5RU6J-Usszrm8Xn9vPKqF68Gm2Wj7Amz2KAQxjWnWYjU5ngieUy3v1s0Xf7_58dJSt0hCg00zhwU0L6RFKotkYyiZh1gOS96q1nkrrJnxMqYVyjMnWPKZcebhFWdQiUcdAIK21Gh40os3fxt-xrSfQA">
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-border-subtle flex items-center justify-center hover:bg-slate-100 transition-colors" href="https://www.linkedin.com/in/ikhwan-hakim-27464a24a" target="_blank" title="LinkedIn">
+<svg class="w-5 h-5 text-[#0f172a]" fill="currentColor" viewbox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"></path></svg>
+</a>
+<a class="w-10 h-10 rounded-full border border-border-subtle flex items-center justify-center hover:bg-slate-100 transition-colors" href="https://www.instagram.com/ikhwan.1002?igsh=MTY1ZTdhbnprejJ0MQ==" target="_blank" title="Instagram">
+<svg class="w-5 h-5 text-[#0f172a]" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.266.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.669-.072-4.948-.197-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+</a>
+<a class="w-10 h-10 rounded-full border border-border-subtle flex items-center justify-center hover:bg-slate-100 transition-colors" href="mailto:ikhwanh085@gmail.com" title="Email">
+<span class="material-symbols-outlined text-xl text-[#0f172a]">mail</span>
+</a>
 </div>
-<div class="w-full md:w-1/2 space-y-stack-md">
-<h2 class="font-headline-lg text-headline-lg text-primary">Pondok Agung: Mengenang Akar</h2>
-<p class="font-body-md text-body-md text-on-surface-variant text-justify">Sekitar 60 Kepala Keluarga tiba di Kebun Melati, yang kemudian dinamakan Pondok Bali. Nama Pondok Agung diberikan khusus untuk mengenang mereka yang menjadi korban letusan Gunung Agung, memastikan identitas mereka tetap hidup di tanah baru.</p>
-<div class="p-6 bg-sacred-white border-l-4 border-bata-merah italic font-body-md text-on-surface-variant shadow-sm">
-                "Mereka memilih Sumatera Utara dengan harapan kondisi yang lebih baik, tanpa pernah melupakan tradisi leluhur."
-            </div>
+<p class="font-body-lg text-body-lg text-slate-600 max-w-lg leading-relaxed" data-i18n="hero-description">S1 Digital Business Graduate from Universitas Negeri Medan (GPA 3.77). Specializing in building functional, interactive, and user-centric web applications and data-driven marketing.</p>
+<div class="mt-12">
+<a class="inline-flex items-center gap-2 px-8 py-3.5 bg-[#89ceff] text-white rounded-full font-bold text-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1 active:scale-95 shadow-lg shadow-blue-100" data-i18n="btn-resume" href="https://drive.google.com/file/d/1OWvhvjuCJg8FArfDM0Q7PY_lPoHRUndR/view?usp=sharing" target="_blank"><span class="material-symbols-outlined text-[20px]">download</span><span class="">Download My Resume</span></a>
+</div></div>
+<div class="relative flex justify-center lg:justify-end reveal active" style="transition-delay: 0.2s">
+<div class="profile-card relative w-full max-w-[450px] aspect-[4/5] rounded-[2rem] overflow-hidden group shadow-2xl z-10">
+<img alt="Ikhwan Hakim" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDy2RJDRvnyjZW8-aP5FG5WtHGv065CmBPEUZ-jKTQcxUxoM8AB9VWqSQoWcvDDwYU294et13DqE5hqQ9n9-SH8J98CGaKQ49P24p3_Y75_1BlTyzf3wiQHDnxBKOxqdCe5p-zkzDoa3G-YzUCp6eYQvUdNCYhZ38vAwJ9sFkIlAl68OEEcg69bp4_w1MFSOm4vFuK7vSgGa3d2Q81ZvD9IeCqX1nkShKMbqlv4bLrbtHnBk9RyWa_hXhFmYXoB-rLz4WdxPzHEm_E"/>
+<div class="absolute bottom-6 left-6 right-6 p-5 bg-white shadow-xl rounded-2xl border border-slate-100 flex flex-col gap-4">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden border-2 border-indigo-100">
+<img class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDy2RJDRvnyjZW8-aP5FG5WtHGv065CmBPEUZ-jKTQcxUxoM8AB9VWqSQoWcvDDwYU294et13DqE5hqQ9n9-SH8J98CGaKQ49P24p3_Y75_1BlTyzf3wiQHDnxBKOxqdCe5p-zkzDoa3G-YzUCp6eYQvUdNCYhZ38vAwJ9sFkIlAl68OEEcg69bp4_w1MFSOm4vFuK7vSgGa3d2Q81ZvD9IeCqX1nkShKMbqlv4bLrbtHnBk9RyWa_hXhFmYXoB-rLz4WdxPzHEm_E"/>
 </div>
-</section>
-<!-- Aturan Masuk (Bento Grid) -->
-<section class="reveal pt-20 active" id="aturan">
-<div class="text-center max-w-2xl mx-auto mb-16">
-<h2 class="font-headline-lg text-headline-lg mb-4">Adab &amp; Kesucian Pura</h2>
-<p class="font-body-md text-body-md text-on-surface-variant">Menjaga 'Suci' adalah inti dari kunjungan ke tempat sakral. Mohon perhatikan aturan berikut sebelum memasuki area utama.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-<!-- Card 1 -->
-<div class="bg-sacred-white p-8 border border-paras-stone/20 rounded-xl bento-inner group reveal active">
-<span class="material-symbols-outlined text-4xl text-bata-merah mb-4 group-hover:scale-110 transition-transform">texture</span>
-<h3 class="font-headline-md text-headline-md mb-2">Anteng</h3>
-<p class="font-body-md text-on-surface-variant">Setiap pengunjung diwajibkan mengenakan kain pengikat pinggang sebagai simbol kesiapan diri dan penyelarasan energi.</p>
-</div>
-<!-- Card 2 -->
-<div class="bg-sacred-white p-8 border border-paras-stone/20 rounded-xl bento-inner group reveal active">
-<span class="material-symbols-outlined text-4xl text-bata-merah mb-4 group-hover:scale-110 transition-transform">water_drop</span>
-<h3 class="font-headline-md text-headline-md mb-2">Tirta</h3>
-<p class="font-body-md text-on-surface-variant">Penyucian diri melalui percikan air suci belukat untuk membersihkan raga dan jiwa dari hal negatif.</p>
-</div>
-<!-- Card 3 -->
-<div class="bg-sacred-white p-8 border border-paras-stone/20 rounded-xl bento-inner group reveal active">
-<span class="material-symbols-outlined text-4xl text-bata-merah mb-4 group-hover:scale-110 transition-transform">local_florist</span>
-<h3 class="font-headline-md text-headline-md mb-2">Bunga &amp; Dupa</h3>
-<p class="font-body-md text-on-surface-variant">Penyelipan bunga di telinga dan aroma dupa membantu memfokuskan pikiran memasuki ruang ibadah.</p>
-</div>
-<!-- Large Banner Card -->
-<div class="md:col-span-3 bg-inverse-surface text-sacred-white p-12 rounded-2xl flex flex-col md:flex-row items-center gap-8 border-t-4 border-bata-merah reveal active">
-<div class="md:w-2/3">
-<h3 class="font-headline-lg text-headline-lg mb-4">Ketentuan Khusus</h3>
-<p class="font-body-md opacity-80 mb-6">Demi menjaga kesucian spiritual (Kuntaka), wanita yang sedang dalam masa haid tidak diizinkan memasuki area pura. Kami memohon pengertian atas bentuk penghormatan tradisi ini.</p>
-</div>
-<div class="md:w-1/3 flex justify-center">
-<span class="material-symbols-outlined text-[120px] opacity-20">do_not_disturb_on</span>
-</div>
-</div>
-</div>
-</section>
-<!-- Lokasi Section -->
-<section class="reveal pt-20 max-w-container-max mx-auto px-margin-desktop active" id="lokasi">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-stretch">
-<!-- Left Column: Information Card -->
-<div class="bg-surface-container-low p-12 rounded-3xl border border-paras-stone/10 flex flex-col justify-center space-y-8">
-<div class="space-y-4">
-<h2 class="font-headline-lg text-headline-lg text-on-surface">Lokasi</h2>
-<p class="font-body-md text-on-surface-variant leading-relaxed">
-        Pura Panataran Dharmaraksaka berdiri sebagai pusat spiritual di tengah lingkungan yang asri, mudah diakses oleh pengunjung yang ingin bersembahyang maupun berwisata religi.
-      </p>
-</div>
-<div class="space-y-8">
-<!-- Alamat Lengkap -->
-<div class="flex items-start gap-4">
-<span class="material-symbols-outlined text-primary text-3xl mt-1">location_on</span>
 <div>
-<h4 class="font-label-md text-label-md text-primary uppercase tracking-wider mb-2">Alamat Utama</h4>
-<p class="font-headline-md text-headline-md text-on-surface leading-tight">
-    Dusun II B Desa Pegajahan,<br>
-    Kecamatan Pegajahan,<br>
-    Kabupaten Serdang Bedagai,<br>
-    Sumatera Utara
-</p>
+<p class="font-bold text-[#0f172a] text-base">@ikhwanhakim</p>
+<div class="items-center gap-2 flex">
+<span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+<span class="text-xs uppercase tracking-widest font-label-mono text-slate-500 font-bold" data-i18n="status-online">Online</span>
 </div>
 </div>
-<div class="pt-4">
-<a class="inline-flex items-center gap-2 bg-primary text-sacred-white px-8 py-3 rounded-full font-label-md hover:bg-primary-container transition-colors shadow-lg" href="https://maps.app.goo.gl/YourActualMapLink" target="_blank">
-<span class="material-symbols-outlined">directions</span>
-        Petunjuk Arah
-    </a>
+<a class="ml-auto bg-[#0f172a] text-white hover:bg-indigo-600 px-4 py-2 rounded-lg text-xs font-bold transition-colors relative z-20" data-i18n="btn-contact-short" href="#contact">CONTACT</a>
+</div>
+</div>
+<div class="absolute top-8 left-8 right-8">
+<h3 class="font-display-hero text-2xl text-[#0f172a] drop-shadow-sm">
+                            Ikhwan <span class="text-indigo-600">Hakim</span>
+</h3>
+<p class="text-slate-600 font-label-mono text-xs uppercase mt-1 font-bold" data-i18n="profile-subtitle">Digital Business Graduate</p>
+</div>
+</div>
+<div class="absolute -top-10 -right-10 w-40 h-40 bg-indigo-50 rounded-full blur-3xl -z-10"></div>
+<div class="absolute -bottom-10 -left-10 w-40 h-40 bg-blue-50 rounded-full blur-3xl -z-10"></div>
+</div>
+</div>
+</section>
+<!-- About Me Section -->
+<section class="bg-white section-padding relative border-y border-slate-100" id="about"><div class="max-w-container-max mx-auto px-margin-mobile relative">
+<div class="absolute -top-24 -left-24 w-96 h-96 bg-indigo-50/50 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -right-24 w-96 h-96 bg-blue-50/50 rounded-full blur-3xl pointer-events-none"></div>
+<div class="grid md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-5 relative reveal active">
+<div class="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white rotate-3 hover:rotate-0 transition-transform duration-500">
+<img alt="Ikhwan Hakim" class="w-full aspect-[4/5] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALUKNT5qhSCQH8gfXisPK2OfEGoPpPwC35dt_f4DGFU6K5Je_llcY9k1-_IKsdbTk9OFYgYUz-QxYpROegiu2McKaNF5JCkf8ZrmEQMtR3yk90dFe7jOsyOP1UbBAA722kD1sPK5h1Zdl_xtwG6mEwMahYlfj7gYYQxSg0uV8sV-IqSAljR-xXB8q_l9U00NQ3WaMpS-62nQEv2qBiXzMvkgdOOF4UmxYSdy8FfbxEz4dAl_ojPnkJbpdEmMxJQdaAOqWJ-FUPQ1M"/>
+</div>
+<div class="absolute -bottom-6 -right-6 w-32 h-32 bg-[#4edea3] rounded-full -z-10 animate-pulse"></div>
+<div class="absolute -top-6 -left-6 w-24 h-24 border-4 border-indigo-200 rounded-full -z-10"></div>
+</div>
+<div class="md:col-span-7 space-y-10 reveal active" style="transition-delay: 0.2s">
+<div class="space-y-4">
+<div class="flex items-center gap-4">
+<span class="w-12 h-1 bg-indigo-600 rounded-full"></span>
+<p class="font-label-mono text-indigo-600 text-sm font-bold uppercase tracking-[0.3em]" data-i18n="about-subtitle">The Story So Far</p>
+</div>
+<h2 class="font-display-hero text-4xl md:text-6xl text-[#0f172a] leading-tight">
+<span data-i18n="about-title-part1">Bridging</span> <span class="text-indigo-600">Data</span> &amp; <span class="text-[#ec4899]" data-i18n="about-title-part2">Design.</span>
+</h2>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div class="p-6 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow group">
+<span class="material-symbols-outlined text-indigo-600 mb-3 group-hover:scale-110 transition-transform">trending_up</span>
+<h4 class="font-bold text-[#0f172a] mb-2" data-i18n="role-marketer">Digital Marketer</h4>
+<p class="text-sm text-slate-600" data-i18n="role-marketer-desc">Data-driven strategies that convert insights into growth.</p>
+</div>
+<div class="p-6 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow group">
+<span class="material-symbols-outlined text-[#0ea5e9] mb-3 group-hover:scale-110 transition-transform">code</span>
+<h4 class="font-bold text-[#0f172a] mb-2" data-i18n="role-dev">Web Developer</h4>
+<p class="text-sm text-slate-600" data-i18n="role-dev-desc">Building interactive, user-centric digital experiences.</p>
+</div>
+</div>
+<div class="space-y-6 font-body-lg text-slate-600 leading-relaxed"><p class="" data-i18n="about-p1">As a <span class="font-bold text-[#0f172a]">Digital Business graduate (GPA 3.77)</span>, I don't just write code; I build business solutions. I believe the best technology is one that answers real user needs through precise data analysis.</p><p class="" data-i18n="about-p2">From managing organizational finances to analyzing the stock market at <span class="italic">Mandiri Sekuritas</span>, every step is driven by curiosity and commitment to quality.</p><p class="" data-i18n="about-p3">I am deeply committed to developing data-driven strategies that bridge the gap between complex analytics and intuitive user experiences. By focusing on building real-world solutions that convert raw insights into sustainable growth, I help businesses navigate the digital landscape with confidence and clarity.</p></div>
+</div>
+</div>
+</div></section>
+<!-- Tech Skills Section -->
+<section class="section-padding" id="skills">
+<div class="max-w-container-max mx-auto px-margin-mobile mb-16 text-center reveal active">
+<h2 class="font-display-hero text-headline-lg md:text-5xl text-[#0f172a]"><span class="" data-i18n="skills-title-1">Tech</span> <span class="text-purple-500" data-i18n="skills-title-2">Skills.</span></h2>
+</div>
+<div class="marquee-container mb-6 reveal active" style="transition-delay: 0.1s">
+<div class="marquee-track animate-marquee-left">
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-orange-500">html</span><span class="font-bold text-slate-700">HTML</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-blue-500">css</span><span class="font-bold text-slate-700">CSS</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-yellow-500">javascript</span><span class="font-bold text-slate-700">JavaScript</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-slate-900">deployed_code</span><span class="font-bold text-slate-700">Vercel</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-slate-900">terminal</span><span class="font-bold text-slate-700">GitHub</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-blue-400">language</span><span class="font-bold text-slate-700">WordPress</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-blue-600">public</span><span class="font-bold text-slate-700">Google Sites</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-indigo-500">devices</span><span class="font-bold text-slate-700" data-i18n="skill-responsive">Responsive Design</span></div>
+<!-- Duplicate cards -->
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-orange-500">html</span><span class="font-bold text-slate-700">HTML</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-blue-500">css</span><span class="font-bold text-slate-700">CSS</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-yellow-500">javascript</span><span class="font-bold text-slate-700">JavaScript</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-slate-900">deployed_code</span><span class="font-bold text-slate-700">Vercel</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-slate-900">terminal</span><span class="font-bold text-slate-700">GitHub</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-blue-400">language</span><span class="font-bold text-slate-700">WordPress</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-blue-600">public</span><span class="font-bold text-slate-700">Google Sites</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-indigo-500">devices</span><span class="font-bold text-slate-700" data-i18n="skill-responsive">Responsive Design</span></div>
+</div>
+</div>
+<div class="marquee-container reveal active" style="transition-delay: 0.2s">
+<div class="marquee-track animate-marquee-right">
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-green-500">trending_up</span><span class="font-bold text-slate-700">SEO</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-purple-500">auto_stories</span><span class="font-bold text-slate-700" data-i18n="skill-content">Content Strategy</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-blue-500">edit_note</span><span class="font-bold text-slate-700">Copywriting</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-pink-500">share</span><span class="font-bold text-slate-700">Social Media</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-blue-700">ads_click</span><span class="font-bold text-slate-700">Meta Ads</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-red-500">ads_click</span><span class="font-bold text-slate-700">Google Ads</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-indigo-600">mail</span><span class="font-bold text-slate-700">Email Marketing</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-orange-600">compare_arrows</span><span class="font-bold text-slate-700">A/B Testing</span></div>
+<!-- Duplicate cards -->
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-green-500">trending_up</span><span class="font-bold text-slate-700">SEO</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-purple-500">auto_stories</span><span class="font-bold text-slate-700" data-i18n="skill-content">Content Strategy</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-blue-500">edit_note</span><span class="font-bold text-slate-700">Copywriting</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-pink-500">share</span><span class="font-bold text-slate-700">Social Media</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-blue-700">ads_click</span><span class="font-bold text-slate-700">Meta Ads</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-red-500">ads_click</span><span class="font-bold text-slate-700">Google Ads</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-indigo-600">mail</span><span class="font-bold text-slate-700">Email Marketing</span></div>
+<div class="skill-card" onclick="handleSkillClick(this)"><span class="material-symbols-outlined text-orange-600">compare_arrows</span><span class="font-bold text-slate-700">A/B Testing</span></div>
+</div>
+</div>
+</section>
+<!-- Experience & Organization Section -->
+<section class="section-padding bg-white" id="experience">
+<div class="max-w-container-max mx-auto px-margin-mobile">
+<div class="mb-12 text-center reveal active">
+<h2 class="font-display-hero text-headline-lg md:text-5xl text-[#0f172a] mb-4"><span class="" data-i18n="exp-title-1">Experience &amp;</span> <span class="text-green-600" data-i18n="exp-title-2">Organization.</span></h2>
+</div>
+<div class="grid grid-cols-1 gap-8">
+<!-- Card: Mandiri Sekuritas -->
+<div class="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 reveal active">
+<div class="flex flex-col md:flex-row justify-between items-start gap-4 mb-6">
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 rounded-xl bg-slate-50 flex items-center justify-center text-slate-400">
+<span class="material-symbols-outlined text-3xl">corporate_fare</span>
+</div>
+<div>
+<h3 class="font-headline-md text-2xl text-[#0f172a]" data-i18n="exp1-role">Investment (Training Program)</h3>
+<p class="text-indigo-600 font-bold">Mandiri Sekuritas</p>
+</div>
+</div>
+<div class="text-right md:text-right flex flex-col items-end gap-1">
+<div class="flex items-center gap-2 text-slate-500 text-sm font-bold"><span class="material-symbols-outlined text-sm">calendar_today</span> <span class="" data-i18n="exp1-date">Dec 2024 - Jan 2025</span></div>
+<div class="flex items-center gap-2 text-slate-500 text-sm font-bold"><span class="material-symbols-outlined text-sm">location_on</span> Medan, Indonesia</div>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-x-12 gap-y-4">
+<div class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-indigo-600 mt-2 flex-shrink-0"></span><p class="font-body-md text-slate-600" data-i18n="exp1-bullet1">Analyzing stock market conditions and determining optimal investment instruments based on technical and fundamental indicators.</p></div>
+<div class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-indigo-600 mt-2 flex-shrink-0"></span><p class="font-body-md text-slate-600" data-i18n="exp1-bullet2">Offering structured stock recommendations based on current market data.</p></div>
+<div class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-indigo-600 mt-2 flex-shrink-0"></span><p class="font-body-md text-slate-600" data-i18n="exp1-bullet3">Operating the Growin by Mandiri Sekuritas platform for systematic stock transaction execution and monitoring.</p></div>
+</div>
+</div>
+<!-- Card: SEMABPM -->
+<div class="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 reveal active">
+<div class="flex flex-col md:flex-row justify-between items-start gap-4 mb-6">
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 rounded-xl bg-indigo-50 flex items-center justify-center text-indigo-600">
+<span class="material-symbols-outlined text-3xl">account_balance_wallet</span>
+</div>
+<div>
+<h3 class="font-headline-md text-2xl text-[#0f172a]" data-i18n="exp2-role">General Treasurer</h3>
+<p class="text-indigo-600 font-bold">SEMABPM Fak. Ekonomi</p>
+</div>
+</div>
+<div class="text-right md:text-right flex flex-col items-end gap-1">
+<div class="flex items-center gap-2 text-slate-500 text-sm font-bold"><span class="material-symbols-outlined text-sm">calendar_today</span> <span class="" data-i18n="exp2-date">March 2025 - March 2026</span></div>
+<div class="flex items-center gap-2 text-slate-500 text-sm font-bold"><span class="material-symbols-outlined text-sm">location_on</span> Medan, Indonesia</div>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-x-12 gap-y-4">
+<div class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-indigo-600 mt-2 flex-shrink-0"></span><p class="font-body-md text-slate-600" data-i18n="exp2-bullet1">Managing organizational cash flow and taking responsibility for financial report transparency.</p></div>
+<div class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-indigo-600 mt-2 flex-shrink-0"></span><p class="font-body-md text-slate-600" data-i18n="exp2-bullet2">Preparing budgets for various faculty-scale activities.</p></div>
+<div class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-indigo-600 mt-2 flex-shrink-0"></span><p class="font-body-md text-slate-600" data-i18n="exp2-bullet3">Coordinating finances between departments within the student organization environment.</p></div>
+</div>
+</div>
+<!-- Card: Tim PPM-F 2025 -->
+<div class="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 reveal active">
+<div class="flex flex-col md:flex-row justify-between items-start gap-4 mb-6">
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600">
+<span class="material-symbols-outlined text-3xl">developer_mode</span>
+</div>
+<div>
+<h3 class="font-headline-md text-2xl text-[#0f172a]" data-i18n="exp3-role">Student Team Member</h3>
+<p class="text-indigo-600 font-bold">Tim PPM-F Fak. Ekonomi – UNIMED (2025)</p>
+</div>
+</div>
+<div class="text-right md:text-right flex flex-col items-end gap-1">
+<div class="flex items-center gap-2 text-slate-500 text-sm font-bold"><span class="material-symbols-outlined text-sm">calendar_today</span> <span class="" data-i18n="exp3-date">Aug 2025</span></div>
+<div class="flex items-center gap-2 text-slate-500 text-sm font-bold"><span class="material-symbols-outlined text-sm">location_on</span> Medan, Indonesia</div>
+</div>
+</div>
+<div class="grid md:grid-cols-1 gap-x-12 gap-y-4">
+<div class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-indigo-600 mt-2 flex-shrink-0"></span><p class="font-body-md text-slate-600" data-i18n="exp3-bullet1">Involved in the development of a serverless geolocation-based attendance application for teacher management transformation in Medan.</p></div>
+</div>
+</div><!-- Card: Tim PPM-F 2024 -->
+<div class="bg-white border border-slate-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 reveal active">
+<div class="flex flex-col md:flex-row justify-between items-start gap-4 mb-6">
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600">
+<span class="material-symbols-outlined text-3xl">developer_mode</span>
+</div>
+<div>
+<h3 class="font-headline-md text-2xl text-[#0f172a]" data-i18n="exp4-role">Student Team Member</h3>
+<p class="text-indigo-600 font-bold">Tim PPM-F Fak. Ekonomi – UNIMED (2024)</p>
+</div>
+</div>
+<div class="text-right md:text-right flex flex-col items-end gap-1">
+<div class="flex items-center gap-2 text-slate-500 text-sm font-bold"><span class="material-symbols-outlined text-sm">calendar_today</span> <span class="" data-i18n="exp4-date">Sep 2024</span></div>
+<div class="flex items-center gap-2 text-slate-500 text-sm font-bold"><span class="material-symbols-outlined text-sm">location_on</span> Medan, Indonesia</div>
+</div>
+</div>
+<div class="grid md:grid-cols-1 gap-x-12 gap-y-4">
+<div class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-indigo-600 mt-2 flex-shrink-0"></span><p class="font-body-md text-slate-600" data-i18n="exp4-bullet1">Providing integrated digital-conventional learning assistance for 70+ SMA &amp; SMK teachers.</p></div>
 </div>
 </div>
 </div>
-<!-- Right Column: Interactive Map -->
-<div class="w-full h-[450px] lg:h-auto rounded-3xl overflow-hidden shadow-lg border border-paras-stone/10">
-<iframe allowfullscreen="" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.564321456789!2d98.98765432109876!3d3.456789012345678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303167890abcdef1%3A0x1234567890abcdef!2sPura%20Panataran%20Dharmaraksaka!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" style="border:0;" width="100%"></iframe>
+</div>
+</section>
+<!-- Projects Section -->
+<section class="section-padding bg-white" id="projects">
+<div class="max-w-container-max mx-auto px-margin-mobile">
+<div class="text-center mb-16 reveal active">
+<h2 class="font-display-hero text-headline-lg md:text-5xl text-[#0f172a]"><span class="" data-i18n="projects-title-1">Featured</span> <span class="text-orange-500" data-i18n="projects-title-2">Projects.</span></h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-element-gap"><!-- Project 1: Pojok Data Desa Pegajahan -->
+<div class="group bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col reveal active">
+<div class="aspect-video overflow-hidden bg-slate-50">
+<img alt="Pojok Data Desa Pegajahan" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5l7cR_L-2e1JDxswU13FHxrTwxDEA-KsjuOTL2xG9FVG1a25CvTTEMNgottT4XANNSoKjPVdLByNnVmLy9PB5jRpeYFgf4jSOcP6YJ3fQjMRRzVPSxftfgYJhTZhLZHkiL6EpB3cxvdL24Rtazk9Rp8LhgS_FWyEQ64WAWF2yQ_x4cx2sJ3P8yDZrShkBkZRzTxF4-g8suaPWHZQLMVDlc8MulSNqajvPL86I5I5LNG2HG6i5y7NgEz-oCws8xCzBbnxHSqG3nac"/>
+</div>
+<div class="p-8 flex-grow flex flex-col">
+<h3 class="font-display-hero text-2xl text-[#0f172a] mb-4">Pojok Data Desa Pegajahan</h3>
+<p class="font-body-md text-slate-600 mb-6 leading-relaxed" data-i18n="proj1-desc">Digitalization initiative for population data and village profiles to support transparency and bureaucratic efficiency.</p>
+<div class="mb-8">
+<p class="font-label-mono text-[10px] text-slate-400 uppercase tracking-widest mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">code</span> TECHNOLOGIES USED
+      </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full text-[12px] font-bold text-slate-600">HTML</span>
+<span class="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full text-[12px] font-bold text-slate-600">CSS</span>
+<span class="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full text-[12px] font-bold text-slate-600">JavaScript</span>
+</div>
+</div>
+<a class="mt-auto w-full py-4 bg-[#6366f1] text-white rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-indigo-600 transition-all active:scale-95 shadow-lg shadow-indigo-100" href="https://pojokdata.vercel.app/" target="_blank">
+<span class="material-symbols-outlined">open_in_new</span>
+<span class="" data-i18n="btn-visit">Visit Website</span>
+</a>
+</div>
+</div>
+<!-- Project 2: Pura Panataran Dharmaraksaka -->
+<div class="group bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col reveal active" style="transition-delay: 0.1s">
+<div class="aspect-video overflow-hidden bg-slate-50">
+<img alt="Pura Panataran Dharmaraksaka" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaDx2en7aHvy8oVSME5nzNi0bpfvh2-PvjXlu5CNvTHT5SegtY1RJOfGuYZBgGPwb6MBsZrGyEsFgbIc_ndTuYxkKHiqWavudrKRi_Fz-hDIrI6s0yI2gBXFx959XIe2WYcU2HVheWHfwujxhKxB9nmq0Py_gOFfBxiw3oK75m4wSKGLMM-W2lrsMeNjbNI_tyHIyLk9TbaTM6EpdKSQEyIDjMXWmEAKZjEciIVitMS6VM-7oADR55L2mHGTUqqkZv3pSTBFRQ20M"/>
+</div>
+<div class="p-8 flex-grow flex flex-col">
+<h3 class="font-display-hero text-2xl text-[#0f172a] mb-4">Pura Panataran Dharmaraksaka</h3>
+<p class="font-body-md text-slate-600 mb-6 leading-relaxed" data-i18n="proj2-desc">Digital information platform for cultural and spiritual heritage to document history and visitor regulations.</p>
+<div class="mb-8">
+<p class="font-label-mono text-[10px] text-slate-400 uppercase tracking-widest mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">code</span> TECHNOLOGIES USED
+      </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full text-[12px] font-bold text-slate-600">HTML</span>
+<span class="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full text-[12px] font-bold text-slate-600">JS</span>
+<span class="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full text-[12px] font-bold text-slate-600">Vercel</span>
+</div>
+</div>
+<a class="mt-auto w-full py-4 bg-[#6366f1] text-white rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-indigo-600 transition-all active:scale-95 shadow-lg shadow-indigo-100" href="https://informasipura.vercel.app/" target="_blank">
+<span class="material-symbols-outlined">open_in_new</span>
+<span class="" data-i18n="btn-visit">Visit Website</span>
+</a>
+</div>
+</div>
+<!-- Project 3: Portofolio Personal -->
+<div class="group bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col reveal active" style="transition-delay: 0.2s">
+<div class="aspect-video overflow-hidden bg-slate-50">
+<img alt="Portofolio Personal" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AP1WRLuvUo9MfnzAH9_hsBC6rgZJtdnOBahAbz6-aOHgJ1v6EjiiYKOCtSq4e73B6veQmnRGc1ybJc7kwnmBNbqQWewN2Jtc9dlSG7GAaFrXoPW8YhW7BZRCDfEDQpUuEi23s0aFIZLl_DZQSkUbhc0PApJxK0GaxKW-cSRb0uT1FF-4I3Dx6tlviz_A6FVoSoPMTXn-LSON_4XsKawuWT2cvNK7dEC2ItFVSW8aVRsmPuFrWPo-oI08yPQiU68"/>
+</div>
+<div class="p-8 flex-grow flex flex-col">
+<h3 class="font-display-hero text-2xl text-[#0f172a] mb-4">Portofolio Personal</h3>
+<p class="font-body-md text-slate-600 mb-6 leading-relaxed" data-i18n="proj3-desc">Integrated professional branding website showcasing expertise in Digital Marketing and Web Development.</p>
+<div class="mb-8">
+<p class="font-label-mono text-[10px] text-slate-400 uppercase tracking-widest mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">code</span> TECHNOLOGIES USED
+      </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full text-[12px] font-bold text-slate-600">HTML</span>
+<span class="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full text-[12px] font-bold text-slate-600">Next.js</span>
+<span class="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full text-[12px] font-bold text-slate-600">Vercel</span>
+</div>
+</div>
+<a class="mt-auto w-full py-4 bg-[#6366f1] text-white rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-indigo-600 transition-all active:scale-95 shadow-lg shadow-indigo-100" href="https://portofolio-ikhwanhakim.vercel.app/" target="_blank">
+<span class="material-symbols-outlined">open_in_new</span>
+<span class="" data-i18n="btn-visit">Visit Website</span>
+</a>
+</div>
+</div></div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="section-padding" id="contact">
+<div class="max-w-container-max mx-auto px-margin-mobile">
+<div class="grid md:grid-cols-2 gap-16 items-start">
+<div class="space-y-8 reveal active">
+<div class="space-y-4">
+<h2 class="font-display-hero text-display-hero-mobile md:text-display-hero text-[#0f172a] leading-tight" data-i18n="contact-title">Get In Touch.</h2>
+<p class="font-body-lg text-body-lg text-slate-600 max-w-md" data-i18n="contact-desc">Have a project idea, a question, or just want to say hi? Feel free to drop a message. I'm always open to new collaborative opportunities.</p>
+</div>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-blue-600">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="font-label-mono text-[12px] text-slate-500 font-bold uppercase tracking-wider">EMAIL</p>
+<p class="font-body-md font-bold text-[#0f172a]">ikhwanh085@gmail.com</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-pink-50 flex items-center justify-center text-pink-500">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<p class="font-label-mono text-[12px] text-slate-500 font-bold uppercase tracking-wider" data-i18n="contact-loc-label">LOCATION</p>
+<p class="font-body-md font-bold text-[#0f172a]" data-i18n="contact-loc-val">Medan, North Sumatra</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-2xl reveal active" style="transition-delay: 0.2s">
+<form action="mailto:ikhwanh085@gmail.com" class="space-y-6" enctype="text/plain" id="contact-form" method="POST">
+<div class="space-y-2 group transition-all" id="name-group">
+<label class="font-label-mono text-[12px] text-slate-600 uppercase font-bold transition-all" data-i18n="form-name">Full Name</label>
+<input class="w-full bg-slate-50 border border-transparent rounded-xl p-4 focus:ring-2 focus:ring-indigo-600 focus:bg-white focus:border-indigo-200 outline-none transition-all" data-i18n-placeholder="form-name-ph" onblur="handleFormBlur('name-group')" onfocus="handleFormFocus('name-group')" placeholder="Enter your name" type="text"/>
+</div>
+<div class="space-y-2 group transition-all" id="email-group">
+<label class="font-label-mono text-[12px] text-slate-600 uppercase font-bold transition-all" data-i18n="form-email">Email Address</label>
+<input class="w-full bg-slate-50 border border-transparent rounded-xl p-4 focus:ring-2 focus:ring-indigo-600 focus:bg-white focus:border-indigo-200 outline-none transition-all" data-i18n-placeholder="form-email-ph" onblur="handleFormBlur('email-group')" onfocus="handleFormFocus('email-group')" placeholder="name@email.com" type="email"/>
+</div>
+<div class="space-y-2 group transition-all" id="msg-group">
+<label class="font-label-mono text-[12px] text-slate-600 uppercase font-bold transition-all" data-i18n="form-msg">Message</label>
+<textarea class="w-full bg-slate-50 border border-transparent rounded-xl p-4 focus:ring-2 focus:ring-indigo-600 focus:bg-white focus:border-indigo-200 outline-none transition-all" data-i18n-placeholder="form-msg-ph" onblur="handleFormBlur('msg-group')" onfocus="handleFormFocus('msg-group')" placeholder="Tell me about your project or idea..." rows="4"></textarea>
+</div>
+<button class="w-full py-4 bg-[#1e293b] text-white rounded-xl font-headline-md font-bold flex items-center justify-center gap-2 hover:bg-[#0f172a] transition-all active:scale-95" type="submit">
+<span class="material-symbols-outlined text-sm">send</span>
+<span class="" data-i18n="btn-send">Send Message</span>
+</button>
+</form>
+<div class="hidden text-center py-10 space-y-4" id="form-success">
+<div class="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto">
+<span class="material-symbols-outlined text-4xl">check_circle</span>
+</div>
+<h4 class="font-headline-md text-2xl text-[#0f172a]">Message Sent!</h4>
+<p class="text-slate-600">Thanks for reaching out. I'll get back to you soon.</p>
+</div>
+</div>
 </div>
 </div>
 </section>
 </main>
-<!-- Footer -->
-<footer class="bg-inverse-surface dark:bg-candi-charcoal w-full pt-section-gap pb-stack-lg border-t border-paras-stone/20 reveal active">
-<div class="flex flex-col items-center gap-stack-lg px-margin-desktop w-full max-w-container-max mx-auto text-center">
-<div class="font-headline-md text-headline-md text-sacred-white">Pura Panataran Dharmaraksaka</div>
-<div class="flex flex-wrap justify-center gap-8">
-<a class="font-body-md text-body-md text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Kebijakan Privasi</a>
-<a class="font-body-md text-body-md text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Pedoman Pengunjung</a>
-<a class="font-body-md text-body-md text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Arsip Sejarah</a>
+<footer class="w-full py-12 bg-white border-t border-slate-200">
+<div class="max-w-container-max mx-auto px-margin-mobile flex flex-col md:flex-row justify-between items-center gap-element-gap">
+<div class="space-y-2 text-center md:text-left">
+<div class="font-headline-md text-headline-md text-[#0f172a] font-bold">Ikhwan Hakim</div>
+<p class="font-body-md text-slate-400" data-i18n="footer-rights">© 2026 Ikhwan Hakim. All rights reserved.</p>
 </div>
-<div class="flex items-center gap-6 mt-4">
-<a class="group transition-all hover:scale-110" href="https://www.instagram.com/kknpegajahan25?igsh=MXZ2a3p4NzdteGZk" target="_blank">
-<svg class="w-7 h-7 fill-surface-variant group-hover:fill-secondary-fixed-dim" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
-</a>
-<a class="group transition-all hover:scale-110" href="https://www.tiktok.com/@kknpegajahan25?_r=1&amp;_t=ZS-97YWp6K127W" target="_blank">
-<svg class="w-7 h-7 fill-surface-variant group-hover:fill-secondary-fixed-dim" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.03 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.98-.23-2.81.31-.75.42-1.24 1.11-1.46 1.89-.26.82-.12 1.71.35 2.44.54.81 1.5 1.32 2.43 1.3 1.31-.04 2.41-1.06 2.65-2.34.03-3.91-.03-7.81-.03-11.72.04-.13.05-.26.05-.39z"></path></svg>
-</a>
+<div class="flex items-center gap-8">
+<a class="font-body-md text-slate-500 hover:text-indigo-600 transition-colors" href="https://www.linkedin.com/in/ikhwan-hakim-27464a24a" target="_blank">LinkedIn</a>
+<a class="font-body-md text-slate-500 hover:text-indigo-600 transition-colors" href="https://www.instagram.com/ikhwan.1002?igsh=MTY1ZTdhbnprejJ0MQ==" target="_blank">Instagram</a>
+<a class="font-body-md text-slate-500 hover:text-indigo-600 transition-colors" data-i18n="nav-contact" href="#contact">Contact</a>
 </div>
-<p class="font-body-md text-body-md text-surface-variant/60 max-w-lg mt-4">
-            COPYRIGHT ©2025, Tim KKN Desa Pegajahan UNIMED 2025.
-        </p>
 </div>
 </footer>
+<!-- Project Detail Modal -->
+<div class="modal-overlay" id="projectModal" onclick="closeProjectModal(event)">
+<div class="modal-content" onclick="event.stopPropagation()">
+<span class="material-symbols-outlined modal-close" onclick="closeProjectModal()">close</span>
+<div class="space-y-6">
+<div class="w-full aspect-video rounded-xl overflow-hidden bg-slate-100" id="modal-image-container">
+<img alt="" class="w-full h-full object-cover" id="modal-image" src=""/>
+</div>
+<div class="space-y-4">
+<h3 class="font-display-hero text-3xl text-[#0f172a]" id="modal-title"></h3>
+<div class="flex flex-wrap gap-2" id="modal-tags">
+<!-- Tags will be injected here -->
+</div>
+<p class="font-body-lg text-slate-600 leading-relaxed" id="modal-description"></p>
+<div class="pt-4">
+<a class="inline-flex items-center gap-2 px-8 py-4 bg-[#6366f1] text-white rounded-full font-bold hover:shadow-lg transition-all active:scale-95" href="#" id="modal-link" target="_blank">
+<span class="" data-i18n="btn-visit">Visit Website</span>
+<span class="material-symbols-outlined text-[20px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
 <script>
-    // Elements
-    const navLinks = document.querySelectorAll('.nav-link');
-    const sections = [document.getElementById('sejarah'), document.getElementById('aturan'), document.getElementById('lokasi')];
-    const toggleBtn = document.getElementById('toggle-sejarah');
-    const content = document.getElementById('sejarah-content');
-
-    // Update active link helper
-    const updateActiveLink = (id) => {
-        navLinks.forEach(link => {
-            const href = link.getAttribute('href').substring(1);
-            if (href === id) {
-                link.classList.add('active');
-            } else {
-                link.classList.remove('active');
-            }
-        });
-    };
-
-    // Smooth scroll and immediate active update
-    navLinks.forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const target = document.getElementById(targetId);
-            
-            if(target) {
-                const headerOffset = 80;
-                const elementPosition = target.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: "smooth"
-                });
-                
-                // Immediate feedback
-                updateActiveLink(targetId);
-            }
-        });
-    });
-
-    // Intersection Observer for Nav Highlighting
-    const navObserverOptions = {
-        root: null,
-        rootMargin: '-81px 0px -70% 0px',
-        threshold: 0
-    };
-
-    const navObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                updateActiveLink(entry.target.id);
-            }
-        });
-    }, navObserverOptions);
-
-    sections.forEach(section => {
-        if(section) navObserver.observe(section);
-    });
-
-    // Reset highlight when at top
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset < 300) {
-            navLinks.forEach(link => link.classList.remove('active'));
+    const translations = {
+        en: {
+            "nav-home": "Home",
+            "nav-about": "About",
+            "nav-skills": "Skills",
+            "nav-experience": "Experience",
+            "nav-projects": "Projects",
+            "nav-contact": "Contact",
+            "hero-greeting": "HELLO, I AM",
+            "hero-tagline": "Digital Marketer & Web Developer",
+            "hero-description": "S1 Digital Business Graduate from Universitas Negeri Medan (GPA 3.77). Specializing in building functional, interactive, and user-centric web applications and data-driven marketing.",
+            "btn-projects": "View Projects",
+            "btn-contact": "Contact Me",
+            "status-online": "Online",
+            "btn-contact-short": "CONTACT",
+            "profile-subtitle": "Digital Business Graduate",
+            "about-subtitle": "The Story So Far",
+            "about-title-part1": "Bridging",
+            "about-title-part2": "Design.",
+            "role-marketer": "Digital Marketer",
+            "role-marketer-desc": "Data-driven strategies that convert insights into growth.",
+            "role-dev": "Web Developer",
+            "role-dev-desc": "Building interactive, user-centric digital experiences.",
+            "about-p1": "As a <span class=\"font-bold text-[#0f172a]\">Digital Business graduate (GPA 3.77)</span>, I don't just write code; I build business solutions. I believe the best technology is one that answers real user needs through precise data analysis.",
+            "about-p2": "From managing organizational finances to analyzing the stock market at <span class=\"italic\">Mandiri Sekuritas</span>, every step is driven by curiosity and commitment to quality.",
+            "about-p3": "I am deeply committed to developing data-driven strategies that bridge the gap between complex analytics and intuitive user experiences. By focusing on building real-world solutions that convert raw insights into sustainable growth, I help businesses navigate the digital landscape with confidence and clarity.",
+            "btn-resume": "Download My Resume",
+            "skills-title-1": "Tech",
+            "skills-title-2": "Skills.",
+            "skill-responsive": "Responsive Design",
+            "skill-content": "Content Strategy",
+            "exp-title-1": "Experience &",
+            "exp-title-2": "Organization.",
+            "exp1-role": "Investment (Training Program)",
+            "exp1-date": "Dec 2024 - Jan 2025",
+            "exp1-bullet1": "Analyzing stock market conditions and determining optimal investment instruments based on technical and fundamental indicators.",
+            "exp1-bullet2": "Offering structured stock recommendations based on current market data.",
+            "exp1-bullet3": "Operating the Growin by Mandiri Sekuritas platform for systematic stock transaction execution and monitoring.",
+            "exp2-role": "General Treasurer",
+            "exp2-date": "March 2025 - March 2026",
+            "exp2-bullet1": "Managing organizational cash flow and taking responsibility for financial report transparency.",
+            "exp2-bullet2": "Preparing budgets for various faculty-scale activities.",
+            "exp2-bullet3": "Coordinating finances between departments within the student organization environment.",
+            "exp3-role": "Student Team Member",
+            "exp3-date": "Aug 2025",
+            "exp3-bullet1": "Involved in the development of a serverless geolocation-based attendance application for teacher management transformation in Medan.",
+            "exp4-role": "Student Team Member",
+            "exp4-date": "Sep 2024",
+            "exp4-bullet1": "Providing integrated digital-conventional learning assistance for 70+ SMA & SMK teachers.",
+            "projects-title-1": "Featured",
+            "projects-title-2": "Projects.",
+            "proj1-desc": "Digitalization initiative for population data and village profiles to support transparency and bureaucratic efficiency.",
+            "proj2-desc": "Digital information platform for cultural and spiritual heritage to document history and visitor regulations.",
+            "proj3-desc": "Integrated professional branding website showcasing expertise in Digital Marketing and Web Development.",
+            "btn-details": "View Details",
+            "btn-visit": "Visit Website",
+            "contact-title": "Get In Touch.",
+            "contact-desc": "Have a project idea, a question, or just want to say hi? Feel free to drop a message. I'm always open to new collaborative opportunities.",
+            "contact-loc-label": "LOCATION",
+            "contact-loc-val": "Medan, North Sumatra",
+            "form-name": "Full Name",
+            "form-name-ph": "Enter your name",
+            "form-email": "Email Address",
+            "form-email-ph": "name@email.com",
+            "form-msg": "Message",
+            "form-msg-ph": "Tell me about your project or idea...",
+            "btn-send": "Send Message",
+            "footer-rights": "© 2026 Ikhwan Hakim. All rights reserved."
+        },
+        id: {
+            "nav-home": "Beranda",
+            "nav-about": "Tentang",
+            "nav-skills": "Keahlian",
+            "nav-experience": "Pengalaman",
+            "nav-projects": "Proyek",
+            "nav-contact": "Kontak",
+            "hero-greeting": "HALO, SAYA",
+            "hero-tagline": "Digital Marketer & Web Developer",
+            "hero-description": "Lulusan S1 Bisnis Digital dari Universitas Negeri Medan (IPK 3.77). Spesialisasi dalam membangun aplikasi web yang fungsional, interaktif, dan berpusat pada pengguna serta pemasaran berbasis data.",
+            "btn-projects": "Lihat Proyek",
+            "btn-contact": "Hubungi Saya",
+            "status-online": "Online",
+            "btn-contact-short": "KONTAK",
+            "profile-subtitle": "Lulusan Bisnis Digital",
+            "about-subtitle": "Kisah Sejauh Ini",
+            "about-title-part1": "Menghubungkan",
+            "about-title-part2": "Desain.",
+            "role-marketer": "Digital Marketer",
+            "role-marketer-desc": "Strategi berbasis data yang mengubah wawasan menjadi pertumbuhan.",
+            "role-dev": "Web Developer",
+            "role-dev-desc": "Membangun pengalaman digital yang interaktif dan berpusat pada pengguna.",
+            "about-p1": "Sebagai lulusan <span class=\"font-bold text-[#0f172a]\">Bisnis Digital (IPK 3,77)</span>, saya tidak hanya menulis kode; saya membangun solusi bisnis. Saya percaya bahwa teknologi terbaik adalah yang mampu menjawab kebutuhan nyata pengguna melalui analisis data yang presisi.",
+            "about-p2": "Dari mengelola keuangan organisasi hingga menganalisis pasar saham di <span class=\"italic\">Mandiri Sekuritas</span>, setiap langkah saya didorong oleh rasa ingin tahu dan komitmen terhadap kualitas.",
+            "about-p3": "Saya sangat berkomitmen untuk mengembangkan strategi berbasis data yang menjembatani kesenjangan antara analitik kompleks dan pengalaman pengguna yang intuitif. Dengan fokus pada membangun solusi dunia nyata yang mengubah wawasan mentah menjadi pertumbuhan berkelanjutan, saya membantu bisnis menavigasi lanskap digital dengan percaya diri dan kejelasan.",
+            "btn-resume": "Unduh Resume Saya",
+            "skills-title-1": "Keahlian",
+            "skills-title-2": "Teknis.",
+            "skill-responsive": "Desain Responsif",
+            "skill-content": "Strategi Konten",
+            "exp-title-1": "Pengalaman &",
+            "exp-title-2": "Organisasi.",
+            "exp1-role": "Investasi (Training Program)",
+            "exp1-date": "Des 2024 - Jan 2025",
+            "exp1-bullet1": "Menganalisis kondisi pasar saham dan menentukan instrumen investasi yang optimal berdasarkan indikator teknikal dan fundamental.",
+            "exp1-bullet2": "Menawarkan rekomendasi saham secara terstruktur dan berbasis data pasar terkini.",
+            "exp1-bullet3": "Mengoperasikan platform Growin by Mandiri Sekuritas untuk eksekusi dan pemantauan transaksi saham secara sistematis.",
+            "exp2-role": "Bendahara Umum",
+            "exp2-date": "Maret 2025 - Maret 2026",
+            "exp2-bullet1": "Mengelola arus kas organisasi dan bertanggung jawab atas transparansi laporan keuangan.",
+            "exp2-bullet2": "Menyusun anggaran untuk berbagai kegiatan skala fakultas.",
+            "exp2-bullet3": "Melakukan koordinasi keuangan antar departemen di lingkungan organisasi mahasiswa.",
+            "exp3-role": "Anggota Tim Mahasiswa",
+            "exp3-date": "Agu 2025",
+            "exp3-bullet1": "Terlibat dalam pengembangan aplikasi absensi berbasis geolocation serverless untuk transformasi manajemen guru di Medan.",
+            "exp4-role": "Anggota Tim Mahasiswa",
+            "exp4-date": "Sep 2024",
+            "exp4-bullet1": "Pendampingan pembelajaran terpadu digital-konvensional bagi 70+ guru SMA & SMK.",
+            "projects-title-1": "Proyek",
+            "projects-title-2": "Unggulan.",
+            "proj1-desc": "Inisiatif digitalisasi data kependudukan dan profil desa untuk mendukung transparansi dan efisiensi birokrasi.",
+            "proj2-desc": "Platform informasi digital warisan budaya dan spiritual untuk mendokumentasikan sejarah dan tata tertib kunjungan.",
+            "proj3-desc": "Website branding profesional terintegrasi yang menampilkan keahlian dalam Digital Marketing dan Web Development.",
+            "btn-details": "Lihat Detail",
+            "btn-visit": "Kunjungi Website",
+            "contact-title": "Hubungi Saya.",
+            "contact-desc": "Punya ide proyek, pertanyaan, atau sekadar ingin menyapa? Jangan ragu untuk mengirim pesan. Saya selalu terbuka untuk peluang kolaborasi baru.",
+            "contact-loc-label": "LOKASI",
+            "contact-loc-val": "Medan, Sumatera Utara",
+            "form-name": "Nama Lengkap",
+            "form-name-ph": "Masukkan nama Anda",
+            "form-email": "Alamat Email",
+            "form-email-ph": "nama@email.com",
+            "form-msg": "Pesan",
+            "form-msg-ph": "Ceritakan tentang proyek atau ide Anda...",
+            "btn-send": "Kirim Pesan",
+            "footer-rights": "© 2026 Ikhwan Hakim. Hak cipta dilindungi undang-undang."
         }
-    });
+    };
 
-    // "Baca Selengkapnya" Toggle Logic
-    if(toggleBtn) {
-        toggleBtn.addEventListener('click', () => {
-            const isExpanded = content.classList.toggle('expanded');
-            toggleBtn.querySelector('span:first-child').textContent = isExpanded ? 'Tutup' : 'Baca Selengkapnya';
-            toggleBtn.querySelector('span:last-child').style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+    const projectsData = {
+        proj1: {
+            title: "Pojok Data Desa Pegajahan",
+            img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA5l7cR_L-2e1JDxswU13FHxrTwxDEA-KsjuOTL2xG9FVG1a25CvTTEMNgottT4XANNSoKjPVdLByNnVmLy9PB5jRpeYFgf4jSOcP6YJ3fQjMRRzVPSxftfgYJhTZhLZHkiL6EpB3cxvdL24Rtazk9Rp8LhgS_FWyEQ64WAWF2yQ_x4cx2sJ3P8yDZrShkBkZRzTxF4-g8suaPWHZQLMVDlc8MulSNqajvPL86I5I5LNG2HG6i5y7NgEz-oCws8xCzBbnxHSqG3nac",
+            link: "https://pojokdata.vercel.app/",
+            tags: ["HTML", "CSS", "Birokrasi"],
+            desc_en: "Digitalization initiative for population data (1,266 families) and village profiles to support transparency and bureaucratic efficiency in Serdang Bedagai. Built using modern web technologies to ensure accessibility and speed.",
+            desc_id: "Inisiatif digitalisasi data kependudukan (1.266 KK) dan profil desa untuk mendukung transparansi birokrasi di Serdang Bedagai. Membantu perangkat desa dalam pengelolaan data warga secara lebih terstruktur dan efisien."
+        },
+        proj2: {
+            title: "Pura Panataran Dharmaraksaka",
+            img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAaDx2en7aHvy8oVSME5nzNi0bpfvh2-PvjXlu5CNvTHT5SegtY1RJOfGuYZBgGPwb6MBsZrGyEsFgbIc_ndTuYxkKHiqWavudrKRi_Fz-hDIrI6s0yI2gBXFx959XIe2WYcU2HVheWHfwujxhKxB9nmq0Py_gOFfBxiw3oK75m4wSKGLMM-W2lrsMeNjbNI_tyHIyLk9TbaTM6EpdKSQEyIDjMXWmEAKZjEciIVitMS6VM-7oADR55L2mHGTUqqkZv3pSTBFRQ20M",
+            link: "https://informasipura.vercel.app/",
+            tags: ["HTML", "JS", "Cultural Heritage"],
+            desc_en: "Digital information platform for cultural and spiritual heritage of the Balinese community in North Sumatra, documenting history and visitor regulations to preserve sacred values while promoting cultural tourism.",
+            desc_id: "Platform informasi warisan budaya dan spiritual masyarakat Bali di Sumatera Utara, mendokumentasikan sejarah dan adab kunjungan. Dirancang sebagai pusat informasi bagi pengunjung dan penjaga kelestarian spiritual Pura."
+        },
+        proj3: {
+            title: "Portofolio Personal",
+            img: "https://lh3.googleusercontent.com/aida/AP1WRLuvUo9MfnzAH9_hsBC6rgZJtdnOBahAbz6-aOHgJ1v6EjiiYKOCtSq4e73B6veQmnRGc1ybJc7kwnmBNbqQWewN2Jtc9dlSG7GAaFrXoPW8YhW7BZRCDfEDQpUuEi23s0aFIZLl_DZQSkUbhc0PApJxK0GaxKW-cSRb0uT1FF-4I3Dx6tlviz_A6FVoSoPMTXn-LSON_4XsKawuWT2cvNK7dEC2ItFVSW8aVRsmPuFrWPo-oI08yPQiU68",
+            link: "https://portofolio-ikhwanhakim.vercel.app/",
+            tags: ["Tailwind", "Next.js", "Portfolio"],
+            desc_en: "Integrated professional branding website showcasing expertise in Digital Marketing and Web Development with multi-language features. Optimized for SEO and mobile responsiveness to provide the best user experience.",
+            desc_id: "Website branding profesional terintegrasi yang menampilkan keahlian dalam Digital Marketing dan Web Development dengan fitur multi-bahasa. Didesain untuk menampilkan persona profesional Ikhwan Hakim kepada rekan bisnis potensial."
+        }
+    };
+
+    let currentLang = 'en';
+
+    function updateLanguage() {
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            if (translations[currentLang][key]) {
+                el.innerHTML = translations[currentLang][key];
+            }
         });
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+            const key = el.getAttribute('data-i18n-placeholder');
+            if (translations[currentLang][key]) {
+                el.placeholder = translations[currentLang][key];
+            }
+        });
+        document.getElementById('lang-text').innerText = currentLang === 'id' ? 'ID / EN' : 'EN / ID';
     }
 
-    // Intersection Observer for "Pop-up" Entry Animation
-    const revealObserverOptions = {
+    document.getElementById('lang-toggle').addEventListener('click', () => {
+        currentLang = currentLang === 'id' ? 'en' : 'id';
+        updateLanguage();
+    });
+
+    // Project Modal Logic
+    function openProjectModal(projectId) {
+        const modal = document.getElementById('projectModal');
+        const data = projectsData[projectId];
+        
+        document.getElementById('modal-title').innerText = data.title;
+        document.getElementById('modal-image').src = data.img;
+        document.getElementById('modal-link').href = data.link;
+        document.getElementById('modal-description').innerText = currentLang === 'en' ? data.desc_en : data.desc_id;
+        
+        const tagsContainer = document.getElementById('modal-tags');
+        tagsContainer.innerHTML = '';
+        data.tags.forEach(tag => {
+            const span = document.createElement('span');
+            span.className = 'px-3 py-1 bg-slate-100 rounded-md font-label-mono text-[12px] text-slate-600';
+            span.innerText = tag;
+            tagsContainer.appendChild(span);
+        });
+
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeProjectModal(e) {
+        const modal = document.getElementById('projectModal');
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    // Reveal Animation with Intersection Observer
+    const observerOptions = {
         threshold: 0.1,
-        rootMargin: '0px 0px -10% 0px'
+        rootMargin: '0px 0px -50px 0px'
     };
 
     const revealObserver = new IntersectionObserver((entries) => {
@@ -463,25 +1009,112 @@
                 entry.target.classList.add('active');
             }
         });
-    }, revealObserverOptions);
+    }, observerOptions);
 
-    document.querySelectorAll('.reveal').forEach(el => {
-        revealObserver.observe(el);
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // Magnetic Button Effect
+    document.querySelectorAll('.magnetic-btn').forEach(btn => {
+        btn.addEventListener('mousemove', (e) => {
+            const position = btn.getBoundingClientRect();
+            const x = e.pageX - position.left - position.width / 2;
+            const y = e.pageY - position.top - position.height / 2;
+            btn.style.transform = `translate(${x * 0.15}px, ${y * 0.3}px)`;
+        });
+        btn.addEventListener('mouseleave', () => {
+            btn.style.transform = 'translate(0px, 0px)';
+        });
     });
 
-    // Hero Parallax
-    window.addEventListener('scroll', () => {
-        const scrolled = window.pageYOffset;
-        const hero = document.querySelector('.hero-shader');
-        const pattern = document.querySelector('.bali-pattern');
-        if (hero) {
-            hero.style.backgroundPositionY = -(scrolled * 0.3) + 'px';
+    // Form logic
+    function handleFormFocus(groupId) {
+        document.getElementById(groupId).classList.add('form-group-focus');
+    }
+
+    function handleFormBlur(groupId) {
+        const input = document.getElementById(groupId).querySelector('input, textarea');
+        if (!input.value) {
+            document.getElementById(groupId).classList.remove('form-group-focus');
         }
-        if (pattern) {
-            pattern.style.transform = `translateY(${scrolled * 0.2}px)`;
-        }
+    }
+
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const form = this;
+        const success = document.getElementById('form-success');
+        
+        // Simple micro-interaction
+        form.classList.add('opacity-0', 'pointer-events-none');
+        setTimeout(() => {
+            form.classList.add('hidden');
+            success.classList.remove('hidden');
+            success.classList.add('form-success-animation');
+        }, 300);
+    });
+
+    // Smooth scroll for navigation links
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                const headerOffset = 100;
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Scroll Spy Logic
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('nav a');
+
+    function scrollSpy() {
+        let currentSectionId = '';
+        const scrollPosition = window.scrollY + 150;
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                currentSectionId = section.getAttribute('id');
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href').substring(1) === currentSectionId) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', scrollSpy);
+    window.addEventListener('load', () => {
+        scrollSpy();
+        updateLanguage();
+    });
+
+    function handleSkillClick(card) {
+        document.querySelectorAll('.skill-card').forEach(c => {
+            if (c !== card) c.classList.remove('popup-active');
+        });
+        card.classList.toggle('popup-active');
+        // Clear active state if click outside or after delay
+        setTimeout(() => {
+            card.classList.remove('popup-active');
+        }, 3000);
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeProjectModal();
     });
 </script>
-
-
 </body></html>
